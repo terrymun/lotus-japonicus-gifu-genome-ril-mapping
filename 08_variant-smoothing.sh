@@ -13,11 +13,11 @@ outputDirectory="/path/to/output_directory/"
 
 
 
-# Gifu x Burttii population
+# Gifu x Burtii population
 ###======================###
 ### JOB SUBMISSION START ###
 ###======================###
-jobCommand="python process-genotype-calls.py -i ${outputDirectory}/Gifu-Burttii/refiltered.merged.012 --popType RIL8 --popName GifuBurttii --cherryPick 0 --window 5 --noMapSize 0"
+jobCommand="python process-genotype-calls.py -i ${outputDirectory}/Gifu-Burtii/refiltered.merged.012 --popType RIL8 --popName GifuBurtii --cherryPick 0 --window 5 --noMapSize 0"
 ###======================###
 ### JOB SUBMISSION END   ###
 ###======================###

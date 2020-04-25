@@ -1,12 +1,15 @@
 # RIL mapping
 
-This readme contains all the necessary scripts needed
+This readme contains all the necessary scripts needed to repeat the mapping step in the assembly efforts behind *Lotus japonicus* Gifu v1.2 genome. It deals with how we have used paired-end reads obtained from two distinct recombinant inbred line (RIL) populations, namely Gifu &times;Burtii and MG20 &times; Gifu, to polish our assembly.
 
 # Pre-requisites
 
 The following datasets must be available on your machine. They can be downloaded from NCBI's SRA website in the links provided below:
 
-* Gifu paired end reads: https://submit.ncbi.nlm.nih.gov/subs/sra/SUB4699487/overview
+* Paired-end reads from the parent lines:
+  * Gifu: ???
+  * Burtii: ???
+  * MG20: ???
 * All the paired-end read `.fastq` files for *Lotus japonicus* RIL populations:
   * Gifu&times;Burtii: https://submit.ncbi.nlm.nih.gov/subs/sra/SUB4699503/overview, and
   * MG20&times;Gifu: https://submit.ncbi.nlm.nih.gov/subs/sra/SUB4699504/overview

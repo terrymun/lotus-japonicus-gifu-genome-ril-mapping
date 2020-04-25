@@ -27,6 +27,8 @@ outputDirectory="/path/to/output_directory/"
 ### CONFIGURATION END   ###
 ###=====================###
 
+
+
 # Create output directory
 `mkdir -p $outputDirectory`
 
@@ -74,6 +76,7 @@ for file in $list1 $list2; do
   ###======================###
 done
 
+# Genearte BAM file for Gifu
 ###======================###
 ### JOB SUMBISSION START ###
 ###======================###
@@ -86,3 +89,9 @@ sambamba sort -m 128GB --tmpdir ${tmpDir} -t 16 -o ${outputDirectory}/Gifu/Gifu.
 ###======================###
 ### JOB SUMBISSION END   ###
 ###======================###
+
+# Generate BAM file for MG20
+# TBD
+
+# Geneate BAM file for Burtii
+# TBD
