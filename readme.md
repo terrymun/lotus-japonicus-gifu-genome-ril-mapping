@@ -1,6 +1,6 @@
 # RIL mapping for *Lotus japonicus* Gifu genome assembly
 
-This readme contains all the necessary scripts needed to repeat the mapping step in the assembly efforts behind *Lotus japonicus* Gifu v1.2 genome. It deals with how we have used paired-end reads obtained from two distinct recombinant inbred line (RIL) populations, namely Gifu &times;Burtii and MG20 &times; Gifu, to polish our assembly.
+This readme contains all the necessary scripts needed to repeat the mapping step in the assembly efforts behind *Lotus japonicus* Gifu v1.2 genome. It deals with how we have used paired-end reads obtained from two distinct recombinant inbred line (RIL) populations, namely Gifu&times;Burtii and MG20&times;Gifu, to polish our assembly.
 
 # Pre-requisites
 
