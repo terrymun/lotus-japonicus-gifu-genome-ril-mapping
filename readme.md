@@ -10,7 +10,7 @@ The following datasets must be available on your machine. They can be downloaded
   * Gifu: ???
   * Burtii: ???
   * MG20: ???
-* All the paired-end read `.fastq` files for *Lotus japonicus* RIL populations:
+* All the paired-end reads for the RIL populations:
   * Gifu&times;Burtii: https://submit.ncbi.nlm.nih.gov/subs/sra/SUB4699503/overview, and
   * MG20&times;Gifu: https://submit.ncbi.nlm.nih.gov/subs/sra/SUB4699504/overview
 
@@ -61,7 +61,7 @@ jobCommand="(arbitrary command here)"
 ###======================###
 ```
 
-The `jobCommand` should be executed as in by your computing cluster's own job management and dispatch system. Please consult with your syster administrator or person-in-charge if you have any doubts on submitting jobs to a queue.
+The `jobCommand` should be executed as-is by your computing cluster's own job management and dispatch system. Please consult with your system administrator or person-in-charge if you have any doubts on submitting jobs to a queue.
 
 ## What about the Python scripts?
 
