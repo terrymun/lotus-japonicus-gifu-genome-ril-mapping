@@ -1,4 +1,4 @@
-# RIL mapping
+# RIL mapping for *Lotus japonicus* Gifu genome assembly
 
 This readme contains all the necessary scripts needed to repeat the mapping step in the assembly efforts behind *Lotus japonicus* Gifu v1.2 genome. It deals with how we have used paired-end reads obtained from two distinct recombinant inbred line (RIL) populations, namely Gifu &times;Burtii and MG20 &times; Gifu, to polish our assembly.
 
@@ -23,7 +23,10 @@ The following tools will need to be installed and be available in your environme
 * [samtools 1.3](https://github.com/samtools/samtools)
 * [vcftools 0.1.15](https://github.com/vcftools/vcftools)
 
-In addition, the final step, `08_variant-smoothing.sh` runs a python script that requires [numpy](https://numpy.org/) to be installed. At the time of writing, the Python version used is 2.7.13.
+The two final steps of the RIL mapping pipelines requires running python scripts from bash, namely `07_vcf-concat.sh` and `08_variant-smoothing.sh`. Their dependencies are:
+
+* [Python 2.7.13](https://www.python.org/downloads/release/python-2713/)
+* [numpy](https://numpy.org/)
 
 # How to use
 
