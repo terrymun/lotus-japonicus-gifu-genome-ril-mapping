@@ -26,7 +26,7 @@ The following tools will need to be installed and be available in your environme
 The two final steps of the RIL mapping pipelines requires running python scripts from bash, namely `07_vcf-concat.sh` and `08_variant-smoothing.sh`. Their dependencies are:
 
 * [Python 2.7.13](https://www.python.org/downloads/release/python-2713/)
-* [numpy](https://numpy.org/)
+* [NumPy](https://numpy.org/)
 
 # How to use
 
