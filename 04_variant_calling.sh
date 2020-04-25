@@ -15,6 +15,7 @@ genomeFastaFile="/path/to/prelimiary_genome_fasta_file.fa"
 ###=====================###
 
 
+
 # Make folders for each RIL population
 `mkdir -p ${outputDirectory}/Gifu-Burtii`
 `mkdir -p ${outputDirectory}/Gifu-MG20`
