@@ -29,9 +29,22 @@ The two final steps of the RIL mapping pipelines requires running python scripts
 * [Python 2.7.13](https://www.python.org/downloads/release/python-2713/)
 * [NumPy](https://numpy.org/)
 
+If you want to perform data visualization as the final step, you will need to have R installed and the following packages installed, too:
+
+* ggplot2
+* gplots
+* reshape2
+* optparse
+* ape
+* RColorBrewer
+
+R packages can be installed by simply running `install.packages(PACKAGE_NAME)`.
+
 # How to use
 
-The bash scripts should be run sequentially, starting from the lowest index, `01`, and up till `08`. The scripts have been intentionally split into several files to allow catching of errors or fine-tuning of parameters in between step, instead of combining them into a large file. It is, of course, possible to automate the entire process, but this is not part of the scope of this repository.
+## Pipeline (see the `/lib` directory)
+
+The pipeline consists of bash scripts, located in the `/lib` directory, that should be run sequentially, starting from the lowest index, `01`, and up till `08`. The scripts have been intentionally split into several files to allow catching of errors or fine-tuning of parameters in between step, instead of combining them into a large file. It is, of course, possible to automate the entire process, but this is not part of the scope of this repository.
 
 ## Manual configuration required
 
@@ -72,3 +85,9 @@ The `jobCommand` should be executed as-is by your computing cluster's own job ma
 TL;DR: Leave them alone.
 
 The python files are simply dependencies used by the bash scripts and **should not be executed out of context or order, and should never be used individually**.
+
+## Visualization
+
+The Rscript in the `/visualization` directory allows you use visualize data generated from the genetic map. Please note that all steps in the `/lib` directory need to be completed first: this Rscript requires certain files to be in place before you can proceed.
+
+The Rscript will generate charts in PDF and PNG format in the respective RIL population folder, namely `Gifu-Burttii` and `Gifu-MG20` folders in the output directory. The Rscript **will need to be run twice**: and remember to swap the `pop1` and `pop2` variables around, so that both individual RIL population will be processed.
