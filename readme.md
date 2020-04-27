@@ -7,9 +7,10 @@ This readme contains all the necessary scripts needed to repeat the mapping step
 The following datasets must be available on your machine. They can be downloaded from NCBI's SRA website in the links provided below:
 
 * Paired-end reads from the parent lines:
-  * Gifu: ???
-  * Burtii: ???
-  * MG20: ???
+  * Gifu: https://www.ebi.ac.uk/ena/data/view/SAMEA4807266 (part of the [PRJEB27969](https://www.ebi.ac.uk/ena/data/view/PRJEB27969) study),
+  * Burtii: [TBA], and
+  * MG20: https://www.ebi.ac.uk/ena/data/view/SAMEA4807284 (part of the [PRJEB27969](https://www.ebi.ac.uk/ena/data/view/PRJEB27969) study)
+
 * All the paired-end reads for the RIL populations:
   * Gifu&times;Burtii: https://submit.ncbi.nlm.nih.gov/subs/sra/SUB4699503/overview, and
   * MG20&times;Gifu: https://submit.ncbi.nlm.nih.gov/subs/sra/SUB4699504/overview
