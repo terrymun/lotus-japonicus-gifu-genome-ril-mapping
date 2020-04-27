@@ -17,7 +17,7 @@ outputDirectory="/path/to/output_directory/"
 ###======================###
 ### JOB SUBMISSION START ###
 ###======================###
-jobCommand="python process-genotype-calls.py -i ${outputDirectory}/Gifu-Burtii/refiltered.merged.012 --popType RIL8 --popName GifuBurtii --cherryPick 0 --window 5 --noMapSize 0"
+jobCommand="python process-genotype-calls.py -i ${outputDirectory}/Gifu-Burtii/refiltered.merged.012 --popType RIL8 --popName GifuBurtii --cherryPick 0 --window 5 --noMapSize 0 --contigLengths ${outputDirectory}/contigLengths.txt"
 ###======================###
 ### JOB SUBMISSION END   ###
 ###======================###
@@ -26,7 +26,7 @@ jobCommand="python process-genotype-calls.py -i ${outputDirectory}/Gifu-Burtii/r
 ###======================###
 ### JOB SUBMISSION START ###
 ###======================###
-jobCommand="python process-genotype-calls.py -i ${outputDirectory}/Gifu-MG20/refiltered.merged.012 --popType RIL9 --popName GifuMG20 --cherryPick 0 --window 5 --noMapSize 0"
+jobCommand="python process-genotype-calls.py -i ${outputDirectory}/Gifu-MG20/refiltered.merged.012 --popType RIL9 --popName GifuMG20 --cherryPick 0 --window 5 --noMapSize 0 --contigLengths ${outputDirectory}/contigLengths.txt"
 ###======================###
 ### JOB SUBMISSION END   ###
 ###======================###
