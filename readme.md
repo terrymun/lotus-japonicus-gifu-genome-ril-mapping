@@ -34,7 +34,6 @@ If you want to perform data visualization as the final step, you will need to ha
 * ggplot2
 * gplots
 * reshape2
-* optparse
 * ape
 * RColorBrewer
 
